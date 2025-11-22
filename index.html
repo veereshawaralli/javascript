@@ -66,16 +66,18 @@
         // {
         //     document.write(`2 x ${i} = ${2 * i}<br>`);
         // }
-        a=prompt("enter the value of a")
-        b=prompt("enter the value of b")
+        // a=Number(prompt("enter the value of a"))
+        // b=Number(prompt("enter the value of b"))
         function add()
         {
-            alert(`the sum of ${a} and ${b} is ${parseInt(a)+parseInt(b)}`)
+           let a= prompt("Enter the value of a")
+           a=a*2
+           alert(`The entered value is multiplied by 2: ${a}`)
         }
         add();
     </script>
 </head>
 <body>
-    
+    <button onclick="add()">a</button>
 </body>
 </html>
